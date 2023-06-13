@@ -1,0 +1,28 @@
+.publication {
+    color: rgb(229, 9, 20);
+}
+
+.publication-section ul.bullets li {
+    /* position: relative; */
+    /* list-style-type: "➢  ";  */
+    /* left: -30px; */
+    list-style: none;
+    text-align: justify;
+    /* padding-left: 10px; */
+    
+}
+
+.publication-section ul.bullets li::before {
+    /* content: "➢"; 
+    color: rgb(229, 9, 20);
+    padding-right: 10px;
+    display: inline-block; */
+
+    content: "➢";
+    color: rgb(229, 9, 20);
+    display: inline-block;
+    width: 1em;
+    left: -30px;
+    margin-left: -30px;
+    padding-right: 10px;
+}

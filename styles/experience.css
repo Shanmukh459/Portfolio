@@ -1,0 +1,99 @@
+.experience {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.experience-side-bar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 100px;
+}
+
+/* .experience-side-bar button {
+    color: white;
+    padding: 10px 14px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+    background-color: black;
+    border: none;
+    transition: all 0.2s;
+} */
+
+.ncr-button, .sjsu-button {
+    color: white;
+    padding: 10px 14px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+    background-color: black;
+    border: none;
+    transition: all 0.2s;
+}
+
+
+.ncr-button {
+    margin-bottom: 8px;
+}
+
+.experience-side-bar button:hover {
+    background-color:rgb(46, 46, 46);
+    cursor: pointer;
+    color: rgb(229, 9, 20);
+}
+.company-title, .work-duration {
+    margin-left: 10px;
+}
+.company-title {
+    font-size: 25px;
+}
+
+.work-duration {
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(229, 9, 20);
+    margin: none;
+}
+
+.experience-description {
+    margin: 0px;
+}
+ul.bullets li {
+    /* position: relative; */
+    /* list-style-type: "➢  ";  */
+    /* left: -30px; */
+    list-style: none;
+    text-align: justify;
+    /* padding-left: 10px; */
+    
+}
+
+ul.bullets li::before {
+    /* content: "➢"; 
+    color: rgb(229, 9, 20);
+    padding-right: 10px;
+    display: inline-block; */
+
+    content: "➢";
+    color: rgb(229, 9, 20);
+    display: inline-block;
+    width: 1em;
+    left: -30px;
+    margin-left: -26px;
+    padding-right: 10px;
+}
+
+.is-selected {
+    background-color: rgb(229, 9, 20);
+}
+
+
+

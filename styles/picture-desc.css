@@ -1,0 +1,27 @@
+.picture-desc-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.profile-picture {
+    height: 180px;
+    width: 200px;
+    border-radius: 50% 50%;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+.description-grid {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    align-items: center;
+}
+
+.name-block {
+    color: rgb(229, 9, 20);
+    font-size: 50px;
+}
+

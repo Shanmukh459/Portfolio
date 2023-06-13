@@ -1,126 +1,136 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Shanmukh's profile</title>
-        <link rel="stylesheet" href="styles/profile-style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <title>Shanmukh's Portfolio</title>
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/picture-desc.css">
+        <link rel="stylesheet" href="styles/side-headings.css">
+        <link rel="stylesheet" href="styles/experience.css">
+        <link rel="stylesheet" href="styles/publication.css">
+        <link rel="stylesheet" href="styles/projects.css">
+        <link rel="stylesheet" href="styles/contact.css">
     </head>
     <body>
-        <div class="profile-page">
-            <section class="image-desc">
-                <div class="profile-image-div">
-                    <img class="profile-image" src="images/Profile-image.JPG">
-                </div>
-                <div class="desc-div">
-                    <div class="hello">Hello, my name is </div>
-                    <div class="name"><p>Shanmukh Krishna</p></div>
-                    <div class="desc"><p>A Full Stack Engineer with 2 years of experience, seeking an Internship for summer 2023. Drawing on my passion for innovation, I possess advanced expertise in precise design and development of complex distributed enterprise applications. I am open to Software Engineer/Data Scientist roles.</p></div>
-                </div>
-                
-            </section>
-            <section class="experience">
-                <div class="sub-heading">
-                    <span style="color: rgb(229, 9, 20); font-size: 25px;">01.</span> Where I've worked
-                </div>
-                <div class="sidebar">
-                    <nav class="experience-sidebar">
-                        <div class="js-sjsu-button">SJSU</div>
-                        <div class="js-ncr-button">NCR Corp</div>
-                    </nav>
-                    <div class="js-job-desc"></div>
-                    <div class="experience-info">
-                        <div class="office-1">
-                            <div class="post-1">
-                                <div class="work-title">Teaching Assistant (ISA) - Computer Networks
-                                    <span style="color:rgb(229, 9, 20);">@ SJSU</span>
-                                </div>
-                                <div class="work-duration">Jan 2023 - Present</div>
-                                <div class="work-desc">
-                                    <ul class="bullets">
-                                        <li>Designed Database schema using normalization techniques and removed data redundancy by 40% compare to existing DB2.</li>
-                                        <li>Tea</li>
-                                        <li>Milk</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div>
-                                
-                            </div>
-                            
-                        </div>
-                        <div>
-                            <div class="post-1">
-                                <div class="work-title">Software Development Engineer
-                                    <span style="color:rgb(229, 9, 20);">@ NCR Corporation</span>
-                                </div>
-                                <div class="work-duration">Jan 2023 - Present</div>
-                                <div class="work-desc">
-                                    <ul class="bullets">
-                                        <li>Designed Database schema using normalization techniques and removed data redundancy by 40% compare to existing DB2.</li>
-                                        <li>Involved in analysis, specification, design, Implementation and testing phases of Software Development Life Cycle.</li>
-                                        <li>Milk</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div>
-                                
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="projects">
-                <div class="sub-heading">
-                    <span style="color: rgb(229, 9, 20); font-size: 25px;">02.</span> Some Things I've built
-                </div>
-                <div>
-                    <ul>
-                        <li>My website</li>
-                        <li>Airport Management System</li>
-                        <li>Plant Disease Classification</li>
-                        <li>Buffalo after Sunset - Crime data Analysis</li>
-                        <li>Contradictory My dear Watson</li>
-                        <li>Human Age and Gender Estimation</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="links-block">
-                <div class="sub-heading">
-                    <span style="color: rgb(229, 9, 20); font-size: 25px;">03.</span> Get In Touch
-                </div>
-                
-            </section>
-            <section class="links-block">
-                <div class="sub-heading">
-                    Tech links
-                </div>
-                <div class="buttons">
-                    <div>
-                        <a href="https://github.com/Shanmukh459"><button class="git-button">Github</button></a>
-                    </div>
-                    <div>
-                        <a href="https://www.linkedin.com/in/shanmukh-krishna-391466214/"><button class="linkedin-button">LinkedIn</button></a> 
-                    </div>
-                </div>
-            </section>
-            <section class="links-block">
-                <div class="sub-heading">
-                    Non-Tech links
-                </div>
-                <div class="buttons">
-                    <div>
-                        <a href="https://www.instagram.com/___shanmukh___/"><button class="gram-button">Instagram</button></a>
-                    </div>
-                    <div>
-                        <a href="https://www.youtube.com/@shanmukhkrishna2482/featured"><button class="youtube-button">You <span style="background-color: red; border-radius: 6px; padding: 4px 4px;">Tube</span></button></a>
-                    </div>
-                </div> 
-            </section>
-        </div>
+        <header class="header">
+                <a href="/Resume.pdf">
+                    <button class="resume-button">Resume</button>
+                </a>
+        </header>
 
-        <style src="scripts/profile.js"></style>
+        <main>
+            <section class="picture-desc-flex">
+                <div>
+                    <img class="profile-picture" src="images/Profile-image.JPG">
+                </div>
+                <div class="description-grid">
+                    <div>Hello, my name is</div>
+                    <div class="name-block">Shanmukh Krishna</div>
+                    <div>I am a software engineering graduate student at San Jose State University with a passion for building innovative applications that solve real-world problems.</div>
+                </div>
+            </section>
+            <section>
+                <div class="side-heading"><span style="font-size: 25px;">01.</span> Where I've worked</div>
+                <div class="experience">
+                    <div class="experience-side-bar">
+                        <button class="js-ncr-button ncr-button">NCR Corporation</button>
+                        <button class="js-sjsu-button sjsu-button">SJSU</button>
+                    </div>
+                    <div class="experience-description">
+                        <div class="js-work-exp"></div>
+                        <!-- <div>Teaching Assistant (ISA) - Computer Networks and Data Mining @SJSU</div>
+                        <div>Aug 2022 - Present</div>
+                        <div></div>
+    
+                        <div>Software Engineer</div>
+                        <div>Oct 2020 - Dec 2021</div>
+                        <div></div>
+    
+                        <div>Software Engineer Intern</div>
+                        <div>Jan 2020 - Sep 2020</div>
+                        <div></div> -->
+                    </div>
+                </div>
+            </section>
+            <section class="publication-section">
+                <div class="side-heading"><span style="font-size: 25px;">02.</span> What I've published</div>
+                <div>
+                    <ul class="bullets">
+                        <li>
+                            Published a research paper on Human Age and Gender Estimation using Support Vector Machine (SVM) in <a href="https://link.springer.com/chapter/10.1007/978-981-33-4046-6_27" class="publication"> ICACECS International Conference.</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
+            <section>
+                <div class="side-heading"><span style="font-size: 25px;">03.</span> Some things I've built</div>
+                <div>
+                    <div>
+                        <div class="project-title">Airport Management System</div>
+                        <div>
+                            <ul class="bullets">
+                                <li>Collaborated with team members and implemented airport management system using technologies - Python (Django), SQLite, and HTML/CSS, enabling personnel to oversee flights and assets, allowing customers to access information and make bookings.</li>
+                                <li>Developed and deployed a flight price prediction feature using an ensemble method (Random Forest), achieving 96% accuracy.</li>
+                                <li>Executed role-based authentication using Django's user authentication system, resulting in an 80% reduction in unauthorized access and a 99.9% uptime upon successful deployment on PythonAnywhere cloud platform.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="project-title">Plant Disease Classification using Dense Net</div>
+                        <div>
+                            <ul class="bullets">
+                                <li>Created DenseNet model for plant disease classification achieving 97.4% accuracy.</li>
+                                <li>Implemented a web-based user interface for the plant disease classification model using Flask and ReactJS.</li>
+                                <li>Pre-processed a large-scale plant disease image dataset, including image augmentation and normalization, to improve model performance and generalization.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="project-title">Buffalo after Sunset - Crime data Analysis</div>
+                        <div>
+                            <ul class="bullets">
+                                <li>Developed a project on analysing Buffalo's crime data using Tableau and PCA to uncover crime patterns and trends.</li>
+                                <li>Created interactive visualizations with Tableau such as heat maps, scatter plots to illustrate crime trends and patterns.</li>
+                                <li>Reduced dimensionality by 90% with PCA and performed KMeans Clustering to identified key variables affecting crimes.</li>
+                                <li>Used SQL queries to identify high-crime areas and frequent types of crime, enabling targeted prevention strategies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="project-title">Contradictory My dear Watson</div>
+                        <div>
+                            <ul class="bullets">
+                                <li>NLP problem in Kaggle and experimented with various algorithms like Count Vectorizer, Word2Vec, BERT and its variants.</li>
+                                <li>Used external datasets like XNLI, SNLI and MNLI which improved the accuracy of every algorithm by 10%.</li>
+                                <li>RoBERT with hybrid datasets gave us the highest accuracy of 95.7% and ended 3rd in the competition. </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section>
+                <div class="side-heading"><span style="font-size: 25px;">04.</span> Get in touch</div>
+                <div class="contact-info">
+                    <div class="social-media">
+                        <a href="https://github.com/Shanmukh459"><img src="images/github.png" class="social-media-icon"></a>
+                        <a href="https://www.linkedin.com/in/shanmukh-krishna/"><img src="images/linkedin.png" class="social-media-icon"></a>
+                        <a href="https://www.instagram.com/___shanmukh___/"><img src="images/instagram.png" class="social-media-icon"></a>
+                        <a href="https://www.facebook.com/sai.krrish.58/"><img src="images/facebook.png" class="social-media-icon"></a>
+                    </div>
+                    <div>
+                        <a href="mailto:shanmukhkrishnab@gmail.com" class="email-link">Say Hello!</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        
+
+        <script src="scripts/profile.js"></script>
     </body>
 </html>
